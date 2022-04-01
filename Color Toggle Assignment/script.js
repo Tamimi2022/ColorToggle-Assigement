@@ -17,7 +17,7 @@ function toggleNav() {
 const toggleNav = color => {
     getAsideUl.style.visibility = getAsideUl.style.visibility === "visible" ? "hidden" : "visible";
     document.body.style.backgroundColor = color; // All Colors
-    mouseover.target.style.backgroundColor = mouseover;
+    // mouseover.target.style.backgroundColor = mouseover;
 } 
 
 // All Box 
@@ -31,7 +31,7 @@ document.querySelector("#box4").addEventListener("click", () => toggleNav("purpl
 
 document.querySelector("#box5").addEventListener("click", () => toggleNav("green"));
 
-// Color Change
+/*
 document.querySelector("#box1").addEventListener("mouseover", () => mouseover("#b4afaf"));
 
 document.querySelector("#box2").addEventListener("mouseover", () => mouseover("red"));
@@ -40,4 +40,4 @@ document.querySelector("#box3").addEventListener("mouseover", () => mouseover("o
 
 document.querySelector("#box4").addEventListener("mouseover", () => mouseover("purple"));
    
-document.querySelector("#box5").addEventListener("mouseover", () => mouseover("green"));
+document.querySelector("#box5").addEventListener("mouseover", () => mouseover("green")); */
